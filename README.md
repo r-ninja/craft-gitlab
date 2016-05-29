@@ -1,8 +1,6 @@
 # GitLab integration plugin for Craft CMS
 
-GitLab API
-
-![Screenshot](resources/screenshots/plugin_logo.png)
+Integrates GitLab API in your Craft templates.
 
 ## Installation
 
