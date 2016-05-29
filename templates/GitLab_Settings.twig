@@ -1,0 +1,34 @@
+{#
+/**
+ * GitLab plugin for Craft CMS
+ *
+ * GitLab Settings.twig
+ *
+ * @author    Richard Trudel
+ * @copyright Copyright (c) 2016 Richard Trudel
+ * @link      http://trudel.ninja
+ * @package   GitLab
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{% includeCssResource "gitlab/css/GitLab_Style.css" %}
+{% includeJsResource "gitlab/js/GitLab_Script.js" %}
+
+{{ forms.textField({
+    label: 'GitLab Host URL',
+    instructions: 'ex: http://gitlab.example.com/ (add trailing slash)',
+    id: 'gitlab_host',
+    name: 'gitlab_host',
+    value: settings['gitlab_host']})
+}}
+
+{{ forms.textField({
+    label: 'Private Token',
+    instructions: 'You can find or reset your private token in your GitLab account page (/profile/account)',
+    id: 'gitlab_privatetoken',
+    name: 'gitlab_privatetoken',
+    value: settings['gitlab_privatetoken']})
+}}
