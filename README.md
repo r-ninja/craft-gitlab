@@ -70,13 +70,15 @@ List opened merge requests
 </ul>
 ```
 
-## GitLab Roadmap
+## GitLab for Craft CMS Roadmap
 
 Some things to do, and ideas for potential features:
 
-* Release it
+* Craft CMS dashboard widgets
+* CP section
+* Add other APIs using POST, PUT and DELETE
 
-## GitLab Changelog
+## GitLab for Craft CMS Changelog
 
 ### 1.0.0 -- 2016.05.28
 
