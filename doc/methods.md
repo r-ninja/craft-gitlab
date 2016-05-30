@@ -3,7 +3,7 @@
 All methods returns a `data` array which contains API result.  
 To know more about parameters and returned data, see https://github.com/gitlabhq/gitlabhq/tree/master/doc/api.
 
-Can also returns a `pagination` array which contain pagination information if used. (See [Pagination](./doc/pagination.md))
+Can also returns a `pagination` array which contain pagination information if used. (See [Pagination](./pagination.md))
 
 **Note:** Every method has a parameter called _$options_ which is not required and used by some API but also pagination.
 
