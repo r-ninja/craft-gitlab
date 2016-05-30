@@ -1,7 +1,7 @@
 # Pagination
 
 Sometimes the returned result will span across many pages. When listing
-resources you can pass the following parameters into _$options_ array of any [methods](./doc/methods.md):
+resources you can pass the following parameters into _$options_ array of any [methods](./methods.md):
 
 | Parameter | Description |
 | --------- | ----------- |
