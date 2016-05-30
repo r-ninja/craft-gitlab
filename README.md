@@ -27,7 +27,7 @@ In the plugin settings window, set the GitLab URL (with trailing slash) and your
 
 Once installed and configured, you will be able to call different variables directly in your templates.
 
-[Methods](./doc/methods.md)
+[Methods](./doc/methods.md)  
 [Pagination](./doc/pagination.md)
 
 ## Some Examples
